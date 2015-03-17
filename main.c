@@ -6,7 +6,7 @@
 /*   By: flagoutt <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/03 17:09:08 by flagoutt          #+#    #+#             */
-/*   Updated: 2015/03/02 19:46:19 by flagoutt         ###   ########.fr       */
+/*   Updated: 2015/03/17 14:42:38 by flagoutt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int		main(int argc, char **argv)
 {
 	t_mlxdata	*data;
 
-	data = (t_mlxdata*)malloc(sizeof(t_mlxdata));
+	data = (t_mlxdata *)malloc(sizeof(t_mlxdata));
 	if (!(data->env.mlx = mlx_init()))
 		return (-1);
 	data->env.window = mlx_new_window(data->env.mlx, WIDTH, HEIGHT, "FdF");

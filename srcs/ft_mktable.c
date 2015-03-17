@@ -6,7 +6,7 @@
 /*   By: flagoutt <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/08 13:16:04 by flagoutt          #+#    #+#             */
-/*   Updated: 2015/03/02 19:43:28 by flagoutt         ###   ########.fr       */
+/*   Updated: 2015/03/17 15:43:36 by flagoutt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ t_grid		*ft_mktable(char *path)
 	grid->table = (int **)malloc(sizeof(int *) * (i + 1));
 	while ((grid->top = get_next_line(fd, &str)) >= 0 && ft_countcolumns(str))
 		ft_mktablenext(grid, &i, str);
-	if (grid->top == -1 || ft_countcolumns(str) == 0)
+	if (grid->top == -1)
 	{
 		free(grid->table);
 		free(grid);
