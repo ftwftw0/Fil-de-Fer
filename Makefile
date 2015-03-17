@@ -6,7 +6,7 @@
 #    By: flagoutt <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 16:32:10 by flagoutt          #+#    #+#              #
-#    Updated: 2015/03/17 15:45:22 by flagoutt         ###   ########.fr        #
+#    Updated: 2015/03/17 15:56:10 by flagoutt         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -41,3 +41,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re:	fclean all
+
+.PHONY: all clean fclean re
