@@ -17,7 +17,4 @@ Technologies used :
 [![Fil de Fer](http://img.youtube.com/vi/JXUtPSdU8tw/0.jpg)](https://youtu.be/JXUtPSdU8tw "Fil de Fer")
 
 
-
-
-
 (Won't work on Linux, this version of MinilibX is only for MacOS)
